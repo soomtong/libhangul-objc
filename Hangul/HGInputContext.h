@@ -45,7 +45,7 @@
 //! @brief @ref hangul_keyboard_set_type
 - (void)setType:(int)type;
 //! @brief @ref moeum_wo_conversion
-- (BOOL)moeum_wo_conversion:(int)ascii;
+//- (BOOL)moeum_wo_conversion:(int)ascii;
 
 @end
 

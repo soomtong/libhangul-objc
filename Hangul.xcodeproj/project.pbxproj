@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2688FCAE1CCEAAAF00429386 /* compat-table.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2688FCAB1CCEAAAF00429386 /* compat-table.txt */; };
+		2688FCAF1CCEAAAF00429386 /* freq-hanja.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2688FCAC1CCEAAAF00429386 /* freq-hanja.txt */; };
+		2688FCB01CCEAAAF00429386 /* freq-hanjaeo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2688FCAD1CCEAAAF00429386 /* freq-hanjaeo.txt */; };
+		2688FCB21CCEAABE00429386 /* hanja2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2688FCB11CCEAABE00429386 /* hanja2.txt */; };
+		2688FCB41CCEAACE00429386 /* mssymbolr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2688FCB31CCEAACE00429386 /* mssymbolr.txt */; };
+		26DE03FE1CCEA89700C0A6DF /* hangulkeyboard-addon.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DE03FD1CCEA89700C0A6DF /* hangulkeyboard-addon.h */; };
+		26DE04011CCEA8BB00C0A6DF /* hangulinputcontext-addon.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DE03FF1CCEA8BB00C0A6DF /* hangulinputcontext-addon.h */; };
+		26DE04021CCEA8BB00C0A6DF /* hangulinputcontext-def.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DE04001CCEA8BB00C0A6DF /* hangulinputcontext-def.h */; };
+		26DE04051CCEA8EE00C0A6DF /* hangulctype-addon.c in Sources */ = {isa = PBXBuildFile; fileRef = 26DE04031CCEA8EE00C0A6DF /* hangulctype-addon.c */; };
+		26DE04061CCEA8EE00C0A6DF /* hangulctype-addon.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DE04041CCEA8EE00C0A6DF /* hangulctype-addon.h */; };
+		26DE04081CCEA90E00C0A6DF /* hangulinputcontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DE04071CCEA90E00C0A6DF /* hangulinputcontext.h */; };
 		3810007714B47A80004224DE /* HGHanja.h in Headers */ = {isa = PBXBuildFile; fileRef = 3810007514B47A7F004224DE /* HGHanja.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3810007914B47A80004224DE /* HGHanja.m in Sources */ = {isa = PBXBuildFile; fileRef = 3810007614B47A80004224DE /* HGHanja.m */; };
 		3810007A14B47A80004224DE /* HGHanja.m in Sources */ = {isa = PBXBuildFile; fileRef = 3810007614B47A80004224DE /* HGHanja.m */; };
@@ -45,6 +56,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2688FCAB1CCEAAAF00429386 /* compat-table.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "compat-table.txt"; path = "../../../libhangul/data/hanja/compat-table.txt"; sourceTree = "<group>"; };
+		2688FCAC1CCEAAAF00429386 /* freq-hanja.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "freq-hanja.txt"; path = "../../../libhangul/data/hanja/freq-hanja.txt"; sourceTree = "<group>"; };
+		2688FCAD1CCEAAAF00429386 /* freq-hanjaeo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "freq-hanjaeo.txt"; path = "../../../libhangul/data/hanja/freq-hanjaeo.txt"; sourceTree = "<group>"; };
+		2688FCB11CCEAABE00429386 /* hanja2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hanja2.txt; path = ../../../libhangul/data/hanja/hanja2.txt; sourceTree = "<group>"; };
+		2688FCB31CCEAACE00429386 /* mssymbolr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mssymbolr.txt; path = ../../../libhangul/data/hanja/mssymbolr.txt; sourceTree = "<group>"; };
+		26DE03FD1CCEA89700C0A6DF /* hangulkeyboard-addon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "hangulkeyboard-addon.h"; path = "../../../libhangul/hangul/hangulkeyboard-addon.h"; sourceTree = "<group>"; };
+		26DE03FF1CCEA8BB00C0A6DF /* hangulinputcontext-addon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "hangulinputcontext-addon.h"; path = "../../../libhangul/hangul/hangulinputcontext-addon.h"; sourceTree = "<group>"; };
+		26DE04001CCEA8BB00C0A6DF /* hangulinputcontext-def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "hangulinputcontext-def.h"; path = "../../../libhangul/hangul/hangulinputcontext-def.h"; sourceTree = "<group>"; };
+		26DE04031CCEA8EE00C0A6DF /* hangulctype-addon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "hangulctype-addon.c"; path = "../../../libhangul/hangul/hangulctype-addon.c"; sourceTree = "<group>"; };
+		26DE04041CCEA8EE00C0A6DF /* hangulctype-addon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "hangulctype-addon.h"; path = "../../../libhangul/hangul/hangulctype-addon.h"; sourceTree = "<group>"; };
+		26DE04071CCEA90E00C0A6DF /* hangulinputcontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hangulinputcontext.h; path = ../../../libhangul/hangul/hangulinputcontext.h; sourceTree = "<group>"; };
 		3810007514B47A7F004224DE /* HGHanja.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGHanja.h; sourceTree = "<group>"; };
 		3810007614B47A80004224DE /* HGHanja.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGHanja.m; sourceTree = "<group>"; };
 		3810008114B4A1AB004224DE /* hanja.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hanja.txt; path = hanja/hanja.txt; sourceTree = "<group>"; };
@@ -101,7 +123,12 @@
 			children = (
 				381000A214B70E96004224DE /* all.txt */,
 				381000A414B70E96004224DE /* mssymbol.txt */,
+				2688FCB31CCEAACE00429386 /* mssymbolr.txt */,
+				2688FCAB1CCEAAAF00429386 /* compat-table.txt */,
+				2688FCAC1CCEAAAF00429386 /* freq-hanja.txt */,
+				2688FCAD1CCEAAAF00429386 /* freq-hanjaeo.txt */,
 				3810008114B4A1AB004224DE /* hanja.txt */,
+				2688FCB11CCEAABE00429386 /* hanja2.txt */,
 				381000A314B70E96004224DE /* hanjar.txt */,
 				3879B5AD1932528200DB574D /* hanjac.txt */,
 				3879B5AE1932528200DB574D /* hanjaw.txt */,
@@ -117,9 +144,15 @@
 			children = (
 				3890A8C61423247C00067337 /* hangul-gettext.h */,
 				3890A8C71423247C00067337 /* hangul.h */,
+				26DE04031CCEA8EE00C0A6DF /* hangulctype-addon.c */,
+				26DE04041CCEA8EE00C0A6DF /* hangulctype-addon.h */,
 				3890A8C81423247C00067337 /* hangulctype.c */,
+				26DE03FF1CCEA8BB00C0A6DF /* hangulinputcontext-addon.h */,
+				26DE04001CCEA8BB00C0A6DF /* hangulinputcontext-def.h */,
 				3890A8C91423247C00067337 /* hangulinputcontext.c */,
+				26DE04071CCEA90E00C0A6DF /* hangulinputcontext.h */,
 				3890A8CA1423247C00067337 /* hangulinternals.h */,
+				26DE03FD1CCEA89700C0A6DF /* hangulkeyboard-addon.h */,
 				3890A8CB1423247C00067337 /* hangulkeyboard.h */,
 				3890A8CC1423247C00067337 /* hanja.c */,
 				3890A8CD1423247C00067337 /* hanjacompatible.h */,
@@ -189,8 +222,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3890A8CF1423247C00067337 /* hangul.h in Headers */,
+				26DE04011CCEA8BB00C0A6DF /* hangulinputcontext-addon.h in Headers */,
 				3890A8D21423247C00067337 /* hangulinternals.h in Headers */,
+				26DE04061CCEA8EE00C0A6DF /* hangulctype-addon.h in Headers */,
 				3890A8D31423247C00067337 /* hangulkeyboard.h in Headers */,
+				26DE04021CCEA8BB00C0A6DF /* hangulinputcontext-def.h in Headers */,
+				26DE04081CCEA90E00C0A6DF /* hangulinputcontext.h in Headers */,
+				26DE03FE1CCEA89700C0A6DF /* hangulkeyboard-addon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,14 +315,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2688FCB21CCEAABE00429386 /* hanja2.txt in Resources */,
 				38FA21FA1423219E00444D67 /* InfoPlist.strings in Resources */,
 				387F95791932541A004A7268 /* all.txt in Resources */,
+				2688FCB41CCEAACE00429386 /* mssymbolr.txt in Resources */,
+				2688FCB01CCEAAAF00429386 /* freq-hanjaeo.txt in Resources */,
 				3879B5B01932528200DB574D /* hanjaw.txt in Resources */,
 				387F958319327948004A7268 /* emoticonr.txt in Resources */,
+				2688FCAE1CCEAAAF00429386 /* compat-table.txt in Resources */,
 				3879B5AF1932528200DB574D /* hanjac.txt in Resources */,
 				387F958219327948004A7268 /* emoticon.txt in Resources */,
 				387F957719325368004A7268 /* mssymbol.txt in Resources */,
 				387F957819325383004A7268 /* hanjar.txt in Resources */,
+				2688FCAF1CCEAAAF00429386 /* freq-hanja.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3890A8D01423247C00067337 /* hangulctype.c in Sources */,
+				26DE04051CCEA8EE00C0A6DF /* hangulctype-addon.c in Sources */,
 				3890A8D11423247C00067337 /* hangulinputcontext.c in Sources */,
 				3890A8D41423247C00067337 /* hanja.c in Sources */,
 				3810007A14B47A80004224DE /* HGHanja.m in Sources */,
