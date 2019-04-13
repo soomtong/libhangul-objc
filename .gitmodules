@@ -1,0 +1,4 @@
+[submodule "libhangul"]
+	path = libhangul
+	url = https://gitlab.com/yous/libhangul.git
+	branch = gureum
