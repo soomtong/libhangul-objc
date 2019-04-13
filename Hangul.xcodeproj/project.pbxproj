@@ -12,9 +12,6 @@
 		388186F621EE3652004B7FDB /* mssymbol.txt in Copy Hanja Resources */ = {isa = PBXBuildFile; fileRef = 388186DC21EE35DD004B7FDB /* mssymbol.txt */; };
 		388186F821EE366A004B7FDB /* hangul-combination-full.xml in Copy Keyboard Resources */ = {isa = PBXBuildFile; fileRef = 388186E021EE35E8004B7FDB /* hangul-combination-full.xml */; };
 		388186F921EE366A004B7FDB /* hangul-combination-default.xml in Copy Keyboard Resources */ = {isa = PBXBuildFile; fileRef = 388186E121EE35E8004B7FDB /* hangul-combination-default.xml */; };
-		388186FA21EE366A004B7FDB /* hangul-combination-3p.xml in Copy Keyboard Resources */ = {isa = PBXBuildFile; fileRef = 388186E621EE35E8004B7FDB /* hangul-combination-3p.xml */; };
-		388186FB21EE366A004B7FDB /* hangul-combination-3f.xml in Copy Keyboard Resources */ = {isa = PBXBuildFile; fileRef = 388186E821EE35E8004B7FDB /* hangul-combination-3f.xml */; };
-		388186FC21EE366A004B7FDB /* hangul-combination-39.xml in Copy Keyboard Resources */ = {isa = PBXBuildFile; fileRef = 388186F021EE35E8004B7FDB /* hangul-combination-39.xml */; };
 		3890A8CF1423247C00067337 /* hangul.h in Headers */ = {isa = PBXBuildFile; fileRef = 3890A8C71423247C00067337 /* hangul.h */; settings = {ATTRIBUTES = (); }; };
 		3890A8D01423247C00067337 /* hangulctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 3890A8C81423247C00067337 /* hangulctype.c */; };
 		3890A8D11423247C00067337 /* hangulinputcontext.c in Sources */ = {isa = PBXBuildFile; fileRef = 3890A8C91423247C00067337 /* hangulinputcontext.c */; };
@@ -75,9 +72,6 @@
 			files = (
 				388186F821EE366A004B7FDB /* hangul-combination-full.xml in Copy Keyboard Resources */,
 				388186F921EE366A004B7FDB /* hangul-combination-default.xml in Copy Keyboard Resources */,
-				388186FA21EE366A004B7FDB /* hangul-combination-3p.xml in Copy Keyboard Resources */,
-				388186FB21EE366A004B7FDB /* hangul-combination-3f.xml in Copy Keyboard Resources */,
-				388186FC21EE366A004B7FDB /* hangul-combination-39.xml in Copy Keyboard Resources */,
 			);
 			name = "Copy Keyboard Resources";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,9 +90,6 @@
 		388186DC21EE35DD004B7FDB /* mssymbol.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mssymbol.txt; sourceTree = "<group>"; };
 		388186E021EE35E8004B7FDB /* hangul-combination-full.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "hangul-combination-full.xml"; sourceTree = "<group>"; };
 		388186E121EE35E8004B7FDB /* hangul-combination-default.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "hangul-combination-default.xml"; sourceTree = "<group>"; };
-		388186E621EE35E8004B7FDB /* hangul-combination-3p.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "hangul-combination-3p.xml"; sourceTree = "<group>"; };
-		388186E821EE35E8004B7FDB /* hangul-combination-3f.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "hangul-combination-3f.xml"; sourceTree = "<group>"; };
-		388186F021EE35E8004B7FDB /* hangul-combination-39.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "hangul-combination-39.xml"; sourceTree = "<group>"; };
 		3890A8B11423238E00067337 /* HGCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGCharacter.h; sourceTree = "<group>"; };
 		3890A8B21423238E00067337 /* HGCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGCharacter.m; sourceTree = "<group>"; };
 		3890A8B31423238E00067337 /* HGInputContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGInputContext.h; sourceTree = "<group>"; };
@@ -184,9 +175,6 @@
 			children = (
 				388186E021EE35E8004B7FDB /* hangul-combination-full.xml */,
 				388186E121EE35E8004B7FDB /* hangul-combination-default.xml */,
-				388186E621EE35E8004B7FDB /* hangul-combination-3p.xml */,
-				388186E821EE35E8004B7FDB /* hangul-combination-3f.xml */,
-				388186F021EE35E8004B7FDB /* hangul-combination-39.xml */,
 			);
 			path = keyboards;
 			sourceTree = "<group>";
